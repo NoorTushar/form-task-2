@@ -4,6 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form-Task-2</title>
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body></body>
+  <body>
+    <section style="text-align: start">
+      <div class="title">
+        <h2 style="text-align: start">Contact</h2>
+      </div>
+      <form>
+        <div>
+          <label for="name">Name: </label>
+          <input type="text" name="name" id="name" />
+        </div>
+
+        <div>
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" />
+        </div>
+
+        <div>
+          <label for="country">Country: </label>
+          <input type="text" name="country" id="country" />
+        </div>
+
+        <div>
+          <label for="budget">Budget: </label>
+          <input type="text" name="budget" id="budget" />
+          <select name="currency" id="currency">
+            <option value="euro">&euro; EUR</option>
+            <option value="usd">&dollar; USD</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="services">Services: </label>
+          <input type="checkbox" name="webdesign" id="webdesign" />
+          Webdesign (PSD Layouts)
+          <input type="checkbox" name="sitebuilding" id="sitebuilding" />
+          Sitebuilding (Slicing, HTML + CSS laout)
+
+          <input type="checkbox" name="coding" id="coding" />
+          Coding (Javascript, PHP coding)
+        </div>
+      </form>
+    </section>
+  </body>
 </html>
