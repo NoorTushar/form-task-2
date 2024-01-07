@@ -91,6 +91,11 @@ section {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
+.inner-div .country {
+  width: 100%;
+  padding: 10px;
+  margin-left: 0px;
+}
 
 .inner-div select {
   width: 30%;
